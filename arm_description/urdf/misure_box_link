@@ -1,0 +1,41 @@
+<link name="base_link">
+<box size="0.09 0.09 0.09"/>
+
+<link name="base_turn">
+<box size="0.08 0.08 0.01"/>
+
+<link name="base_turn_rot">
+<box size="0.06 0.06 0.021"/>
+
+<link name="dyn2">
+<box size="0.05 0.05 0.05"/>
+
+<link name="f4">
+<box size="0.05 0.1 0.03"/>
+
+<link name="dyn3">
+<box size="0.05 0.05 0.05"/>
+
+<link name="f5">
+<box size="0.05 0.1 0.03"/>
+
+<link name="dyn4">
+<box size="0.05 0.05 0.05"/>
+
+<link name="wrist">
+<box size="0.05 0.06 0.05"/>
+
+ <link name="dyn5">
+ <box size="0.05 0.05 0.05"/>
+
+ <link name="crawer_base">
+ <box size="0.11 0.05 0.005"/>
+
+ <link name="crawer_left">
+ <box size="0.07 0.04 0.05"/>
+
+  <link name="crawer_right">
+  <box size="0.07 0.04 0.05"/>
+
+
+
