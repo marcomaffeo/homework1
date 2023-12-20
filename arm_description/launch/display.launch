@@ -4,7 +4,8 @@
     <arg name="robot_name" default="arm"/>
 
     <arg name="hardware_interface" default="PositionJointInterface"/>
-
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" output="screen" />
     <arg name="rvizconfig" default="$(find arm_description)/config_file.rviz" />
 
     <arg name="origin_xyz" default="'0 0 0'"/> <!-- Note the syntax to pass a vector -->
